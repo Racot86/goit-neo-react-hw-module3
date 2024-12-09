@@ -1,0 +1,32 @@
+body{
+  color:lightgray;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  background-color: #1f2023;
+  height: 100vh;
+}
+.phone-book{
+  position: relative;
+  background-color: #42444a;
+  border-radius: 12px;
+  padding: 12px 12px 52px;
+}
+.btn-add{
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  border-radius: 50%;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+.btn-add:hover{
+  background-color: lightgray;
+  scale: 1.2;
+}
+.header{
+  margin-bottom: 16px;
+  font-size: 32px;
+}
